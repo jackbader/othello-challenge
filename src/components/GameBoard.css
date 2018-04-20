@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    left: 0;
+    width: max-content;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: auto;
+    position: absolute;
+    border: 50px solid sandybrown;
+    border-radius: 50px;
+}
+
+.Green-circle {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.Red-circle {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    transform-style: preserve-3d;
+    transform: rotateX('50');
+}
+
+.hover {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border-radius: 50px;
+}
+
